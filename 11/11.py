@@ -1,0 +1,2 @@
+for i in range(1, 301):
+  print("SUM(Sheet1!B2:OFFSET(Sheet1!B2, 0, 0, IF(AND(301 + 1 - ROW(B2) >= 1, 301 + 1 - COLUMN(B2) >= 1), 1, 0), IF(AND(301 + 1 - ROW(B2) >= 1, 301 + 1 - COLUMN(B2) >= 1), 1, 0)))", end="+")
